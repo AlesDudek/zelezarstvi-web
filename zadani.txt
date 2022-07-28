@@ -1,0 +1,34 @@
+Vytvořte stránku firemního webu "Železářství Hřebíček s.r.o." se sídlem v "Kovové nad Železnou".
+Další údaje firmy si libovolně vymyslete.
+
+Obsahem stránky bude seznam zboží na skladě.
+
+Připravte stránku i na variantu, že na skladě žádné zboží není.
+  V takovém případě ať stránka zobrazí text: "náš sklad je momentálně prázdný".
+
+Jinak pracujte s daty, které jsem vám připravil v souboru script.js.
+
+Vysvětlivky vlastností objektu:
+  item - název skladové položky
+  unitPrice - jednotková cena, cena za jeden kus zboží
+  quantity - počet kusů daného zboží na skladě
+
+Tabulka seznamu zboží by měla mít sloupce:
+  - název
+  - jedn. cena
+  - ks na skladě
+  - celkem (finanční hodnota všech kusů daného zboží na skladě - v objektu tato hodnota není, vypočítejte si ji!)
+
+Posledním řádkem tabulky by měl být součtový řádek - text "zboží celkem", součet všech kusů všeho zboží a všech celkových cen,
+  tedy celková finanční hodnota celého skladu.
+
+Ceny v objektech píšu jako číslo, taková zkrátka dostáváte data.
+Protože ale kreslíme český web, ceny budeme zobrazovat ve formátu "50,- Kč",
+tedy i s tou čárkou, pomlčkou a označením české koruny.
+Slováci můžou klidně použít jako měnu euro.
+
+Celou stránku si nastylujte tak, aby se vám líbila :-).
+
+Ať se vám daří, dobře se u toho bavte :-).
+
+Tomík
